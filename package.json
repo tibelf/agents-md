@@ -1,5 +1,5 @@
 {
-  "name": "@kipper/agents-md",
+  "name": "@askchiefleo/agents-md",
   "version": "1.0.0",
   "description": "Generate compressed docs index for AGENTS.md (Vue, uni-app, etc.)",
   "bin": {
