@@ -1,0 +1,48 @@
+{
+  "name": "Vue",
+  "version": "3.x",
+  "detect": {
+    "dependencies": ["vue"],
+    "devDependencies": ["vue"],
+    "files": []
+  },
+  "docsRepo": "https://github.com/vuejs/docs",
+  "docsBranch": "main",
+  "docsPath": "src/",
+  "localDocsDir": ".vue-docs",
+  "excludePatterns": [
+    "tutorial/**",
+    "examples/**",
+    "public/**",
+    "partners/**",
+    "sponsor/**",
+    "about/**",
+    "ecosystem/**",
+    "glossary/**",
+    "translations/**",
+    "*.config.js",
+    "*.config.ts",
+    ".vitepress/**",
+    "_sidebar.md"
+  ],
+  "includePatterns": [
+    "api/**",
+    "guide/**",
+    "style-guide/**",
+    "README.md"
+  ],
+  "subEcosystems": [
+    {
+      "name": "vue-router",
+      "detect": ["vue-router"],
+      "docsRepo": "https://github.com/vuejs/router",
+      "docsPath": "packages/docs/"
+    },
+    {
+      "name": "pinia",
+      "detect": ["pinia"],
+      "docsRepo": "https://github.com/vuejs/pinia",
+      "docsPath": "packages/docs/"
+    }
+  ]
+}
