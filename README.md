@@ -1,4 +1,4 @@
-# @kipper/agents-md
+# @askchiefleo/agents-md
 
 Generate compressed documentation index for AGENTS.md / CLAUDE.md supporting Vue, uni-app, and more frameworks.
 
@@ -6,39 +6,39 @@ Generate compressed documentation index for AGENTS.md / CLAUDE.md supporting Vue
 
 ```bash
 # Use directly with npx
-npx @kipper/agents-md
+npx @askchiefleo/agents-md
 
 # Or install globally
-npm install -g @kipper/agents-md
+npm install -g @askchiefleo/agents-md
 ```
 
 ## Usage
 
 ```bash
 # Auto-detect project type and generate index
-npx @kipper/agents-md
+npx @askchiefleo/agents-md
 
 # Specify framework manually
-npx @kipper/agents-md --framework vue
-npx @kipper/agents-md --framework uniapp
+npx @askchiefleo/agents-md --framework vue
+npx @askchiefleo/agents-md --framework uniapp
 
 # Preview without writing files
-npx @kipper/agents-md --dry-run
+npx @askchiefleo/agents-md --dry-run
 
 # Force re-pull documentation
-npx @kipper/agents-md --force
+npx @askchiefleo/agents-md --force
 
 # Also generate CLAUDE.md
-npx @kipper/agents-md --claude
+npx @askchiefleo/agents-md --claude
 
 # Use cached docs (offline mode)
-npx @kipper/agents-md --offline
+npx @askchiefleo/agents-md --offline
 
 # Verbose output
-npx @kipper/agents-md --verbose
+npx @askchiefleo/agents-md --verbose
 
 # List supported frameworks
-npx @kipper/agents-md list-frameworks
+npx @askchiefleo/agents-md list-frameworks
 ```
 
 ## What it does
@@ -81,7 +81,7 @@ rules/
 ## Programmatic API
 
 ```typescript
-import { agentsMd, detectFramework, generateDocsIndex } from '@kipper/agents-md';
+import { agentsMd, detectFramework, generateDocsIndex } from '@askchiefleo/agents-md';
 
 // Run the full process
 await agentsMd({
